@@ -1,10 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Arial, sans-serif;
   color: rgb(33, 50, 104);
-  
 }
 
 .container {
@@ -26,9 +25,10 @@
 }
 
 .container div p.author {
-  margin: 20px 150px 50px;
+  margin: 20px 50px 50px 600px;
   font-size: 22px;
   height: 3vh;
+  width: 400px;
   text-align: right;
   font-style: italic;
 }
@@ -36,7 +36,7 @@
 .container .btn {
   display: flex;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
 }
 
 .container .btn button {
@@ -57,11 +57,47 @@
   color: rgba(118, 118, 118, 0.3);
 }
 
-.container .hidden{ 
-display: none;
+.container .hidden {
+  display: none;
 }
 
 .container .favoriteQuote p.quote {
   min-height: 5vh;
 }
 
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 27px;
+  }
+
+  .container div p.quote {
+    font-size: 20px;
+    min-height: 15vh;
+  }
+
+  .container div p.author {
+    margin: 20px 50px 50px 200px;
+    font-size: 19px;
+  }
+
+  .container .btn button {
+    padding: 8px 20px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 428px) {
+  .container h1 {
+    font-size: 25px;
+  }
+
+  .container div p.author {
+    margin: 20px 50px 20px 80px;
+    width: 250px;
+    height: 2vh;
+  }
+
+  .container .btn {
+    flex-direction: column;
+  }
+}
