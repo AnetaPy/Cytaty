@@ -11,23 +11,3 @@ Project is created with:
 * CSS3
 * JavaScript
 * React.js
-
-## Setup
-
-To run this project: 
-
-1. Clone this repository.
-```
-$ git clone https://github.com/AnetaPy/quotations.git
-$ git cd quotations
-```
-
-2. Install dependencies.
-```
-$ npm install
-```
-
-3. Run this website
-```
-$ npm run start
-```
