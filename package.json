@@ -1,0 +1,27 @@
+{
+  "name": "3_cytaty",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000C\u0000y\u0000t\u0000a\u0000t\u0000y\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "parcel ./*.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnetaPy/Cytaty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnetaPy/Cytaty/issues"
+  },
+  "homepage": "https://github.com/AnetaPy/Cytaty#readme",
+  "devDependencies": {
+    "parcel": "^2.2.1"
+  }
+}
